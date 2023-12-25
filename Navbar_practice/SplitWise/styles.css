@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+.navbar{
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(91,191,161);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#leftmenu{
+    float: right;
+    border-right: 1px solid rgb(245,246,246);
+}
+#rightmenu {
+    float: left;
+    border-right: 1px solid rgb(245,246,246);
+}
+a {
+    display: block;
+    padding: 0 28px;
+    text-decoration: none;
+    color: rgb(245,246,246);
+}
+a:hover{
+    background-color: rgb(245,246,246);
+    color: rgb(91,191,161);
+}
+.active a{
+    background-color: rgb(245,246,246);
+    color: rgb(91,191,161);
+}
