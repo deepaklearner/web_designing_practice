@@ -1,64 +1,28 @@
 .body{
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
+    /* width: 1100px; */
+    margin: 0px;
+    padding: 0px;
+
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
 }
 .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px;
-    grid-row-gap: 20px;
-    
+    background-color: aqua;
+    width: 1200px;
+    height: 700px;
+    display: grid; 
+    /* grid-template-columns: 100px 900px 100px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
 
-.item-1{
-    background-color: rgb(173, 214, 138)
-}
-.item-2{
-    background-color: rgb(173, 214, 138)
-}
-.item-3{
-    background-color: rgb(173, 214, 138)
-}
-.item-4{
-    background-color: rgb(173, 214, 138)
-}
-.item-5{
-    background-color: rgb(173, 214, 138)
-}
-.item-6{
-    background-color: rgb(173, 214, 138)  
-}
-.item-7{
-    background-color: rgb(173, 214, 138)
-}
-.item-8{
-    background-color: rgb(173, 214, 138)
-}
-.item-9{
-    background-color: rgb(173, 214, 138)
-}
-.item-10{
-    background-color: rgb(173, 214, 138)
-}
-.item-11{
-    background-color: rgb(173, 214, 138)
-}
-.item-12{
-    background-color: rgb(173, 214, 138)
-}
-.item-13{
-    background-color: rgb(173, 214, 138)
-}
-.item-14{
-    background-color: rgb(173, 214, 138)
-}
-.item-15{
-    background-color: rgb(173, 214, 138)
-}
-.item-16{
-    background-color: rgb(173, 214, 138)
-}
+.item{
+    background-color: brown;
+    /* height: 100px;
+    width: 100px; */
 
+}
